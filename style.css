@@ -27,7 +27,8 @@ h1,h2,h3{
     color: #363958;
 }
 section{
-    height: 600px;
+    height: 800px;
+    padding-bottom: 60px;
     
 }
 .half-width{
@@ -39,7 +40,12 @@ section{
 .half-width img{
     width: 100%;
 }
-
+.middle-area{
+    height: 500px;
+}
+.second-middle-area{
+    height: 500px;
+}
 h1{
     font-size: 40px;
     color: #363958;
@@ -66,6 +72,7 @@ h1{
     background-color: #F8F9FC;
     padding: 40px;
     text-align: center;
+     
     
 }
  
@@ -149,12 +156,110 @@ h1{
    
     
 }
+.inqury-site{
+    height: 400px;
+}
+.inqury-site h2{
+    color: white;
+    margin: 86px 0px 0px 115px;
+    display: inline-block; 
+    text-transform: uppercase;    
+}
 .get-link{
     float: right;
     text-decoration: none;
     padding: 10px 20px;
     background-image: linear-gradient(45deg, lightSalmon, tomato);
     border-radius: 5px;
-    margin: 90px 50px 20px 0;
+    margin: -325px 50px 20px 0;
+    color: white;
+}
+#indroduce-area{
+    margin-top: -500px;
+    width: 100%;
+    height: 350px;
+    background-color: hsla(231, 36%, 70%, 0.082);
+    padding: 60px;
+}
+.introduce-part{
+    width: 20%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-left: 70px;
+    
+     
+}
+.percent-area1{
+    width: 140px;
+    height: 10px;
+    background-color: black;
+    display: inline-block;
+    
+}
+.percent-area2{
+    width: 120px;
+    height: 10px;
+    background-color: black;
+    display: inline-block;
+    
+}
+.percent-area3{
+    width: 110px;
+    height: 10px;
+    background-color: black;
+    display: inline-block;
+    
+}
+.percent-area4{
+    width: 160px;
+    height: 10px;
+    background-color: black;
+    display: inline-block;
+    
+}
+footer{margin-bottom: 40px;}
+.menu-top-text{
+    text-align: center;
+    padding: 0px;
 }
  
+.menu-top-text h6{
+    color: gray;
+    margin-bottom: -30px;
+    
+}
+.menu-top-text h4{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.footer-menu{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.footer-menu ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    list-style-type: none;
+}
+.footer-menu ul li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.footer-menu ul li a{
+    color: #272727;
+    font-size: 25px;
+}
+.footer-menu ul li a i{
+    line-height: 50px;
+}
